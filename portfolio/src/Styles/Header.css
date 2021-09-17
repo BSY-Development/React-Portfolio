@@ -4,3 +4,25 @@
   color: #334756;
   color: #FF4C29;
 }
+
+.header-main {
+  align-items: center;
+  display: flex;
+  height: 80vh;
+  justify-content: space-between;
+}
+
+.btn-main {
+  background-color: #ff8906;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: 15px 20px;
+}
+
+.btn-main:hover {
+  cursor: pointer;
+  background-color: #cf6f02;
+}
