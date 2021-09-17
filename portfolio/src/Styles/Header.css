@@ -1,15 +1,13 @@
-.page-colors {
-  color: #082032;
-  color: #2C394B;
-  color: #334756;
-  color: #FF4C29;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 .header-main {
   align-items: center;
+  background-color: #0f0e17;
   display: flex;
-  height: 80vh;
+  min-height: 90vh;
   justify-content: space-between;
+  padding-left: 9.9%;
+  padding-right: 9.9%;
 }
 
 .btn-main {
@@ -25,4 +23,45 @@
 .btn-main:hover {
   cursor: pointer;
   background-color: #cf6f02;
+}
+
+.header-text {
+  width: 50%;
+}
+
+.hey-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.header-description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.header-img-div {
+  width: 50%;
+}
+
+.header-img {
+  width: 390px;
+}
+
+@media screen and (max-width: 960px) {
+  .header-main {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .header-img {
+    width: 65%;
+  }
+  .header-text {
+    width: 100%;
+  }
+  .header-img-div {
+    margin-top: 5%;
+    width: 100%;
+  }
 }

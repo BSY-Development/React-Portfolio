@@ -1,15 +1,13 @@
 body {
-  background-color: #0f0e17;
-  margin-left: 9.9%;
-  margin-right: 9.9%;
   color: white;
 }
 
 .main-nav {
+  background-color: #0f0e17;
   display: flex;
+  font-weight: bolder;
   justify-content: space-between;
-  padding-top: 2.7%;
-  padding-bottom: 2.7%;
+  padding: 2.7% 9.9%;
 }
 
 .main-nav a {
