@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  margin-left: 9.9%;
+  margin-right: 9.9%;
+  color: white;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.7%;
+  padding-bottom: 2.7%;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-option {
+  margin-left: 20px;
+}
