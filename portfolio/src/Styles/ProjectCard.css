@@ -20,6 +20,10 @@
   width: 300px;
 }
 
+.project-image:hover {
+  transform: scale(1.2);
+}
+
 .title {
   color: #fffffe;
 }
@@ -43,4 +47,22 @@
 
 .a-card:hover {
   color: #cf6f02;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .project-image {
+    width: 100%;
+  }
 }
