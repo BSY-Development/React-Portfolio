@@ -1,8 +1,11 @@
 .field-area {
   margin: 10%;
+  width: 50%;
+  background-color: aqua;
 }
 
 .form-area {
+  background-color: red;
   display: flex;
   flex-direction: column;
 }

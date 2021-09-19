@@ -28,15 +28,17 @@ function Contact() {
   }
 
   return (
-    <fieldset className="field-area">
-      <form className="form-area" onSubmit={ handleSubmit }>
-        <input type="text" placeholder="Your Name" onChange={ (e) => handleChange(e, setName) } />
-        <input type="email" placeholder="E-mail" onChange={ (e) => handleChange(e, setEmail) } />
-        <textarea onChange={ (e) => handleChange(e, setMessage) } />
-        <p>{ messageStatus }</p>
-        <button type="submit">Send Message</button>
-      </form>
-    </fieldset>
+    <div className="div-contact">
+      <fieldset className="field-area">
+        <form className="form-area" onSubmit={ handleSubmit }>
+          <input type="text" placeholder="Your Name" onChange={ (e) => handleChange(e, setName) } />
+          <input type="email" placeholder="E-mail" onChange={ (e) => handleChange(e, setEmail) } />
+          <textarea onChange={ (e) => handleChange(e, setMessage) } />
+          <p>{ messageStatus }</p>
+          <button type="submit">Send Message</button>
+        </form>
+      </fieldset>
+    </div>
   );
 }
 
