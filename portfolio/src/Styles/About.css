@@ -78,3 +78,50 @@
 .fa-github:hover {
   color: grey;
 }
+
+@media screen and (max-width: 1024px) {
+  .social-div {
+    justify-content: space-around;
+    width: 100%;
+  }
+  .social-media {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title-about {
+    font-size: 2.5rem;
+  }
+  .about-me {
+    flex-direction: column;
+  }
+  .tech-div {
+    padding: 0;
+    width: 100%;
+  }
+  hr {
+    margin: 50px auto 0;
+    width: 100%;
+  }
+  .about-right {
+    width: 100%;
+  }
+  .social-div {
+    justify-content: space-around;
+    width: 100%;
+  }
+  .social-media {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title-about {
+    font-size: 2rem;
+  }
+  hr {
+    margin: 30px auto 0;
+    width: 100%;
+  }
+}
