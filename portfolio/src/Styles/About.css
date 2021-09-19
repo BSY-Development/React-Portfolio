@@ -1,0 +1,69 @@
+.about-me {
+  background-color: #0f0e17;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 10%;
+}
+
+.fab {
+  font-size: 32px;
+}
+
+.technologies {
+  background-color: #F2F2F2;
+  color: #0F0E17;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+}
+
+.about-right {
+  width: 40%;
+}
+
+.margin-icon {
+  margin-bottom: 10px;
+}
+
+.fa-git:hover{
+  color: #E94E31;
+}
+
+.fa-python:hover {
+  color: #2978A9;
+}
+
+.fa-js-square:hover {
+  color: #EFD81D;
+}
+
+.fa-react:hover {
+  color: #5ED3F3;
+}
+
+.social-div {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.social-media {
+  color: white;
+}
+
+.fa-instagram:hover {
+  background: -webkit-linear-gradient(#8C39B0, #F7D177);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin:hover {
+  color: #0074B4;
+}
+
+.fa-github:hover {
+  color: grey;
+}
