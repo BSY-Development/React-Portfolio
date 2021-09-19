@@ -3,20 +3,31 @@
   color: white;
   display: flex;
   justify-content: space-around;
-  padding: 5% 10%;
+  padding: 8% 10%;
 }
 
 .fab {
   font-size: 32px;
 }
 
+.fab:hover {
+  cursor: pointer;
+}
+
 .technologies {
-  background-color: #F2F2F2;
-  color: #0F0E17;
+  color: white;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
-  padding: 70px;
+}
+
+.title-about {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.tech-div {
+  padding: 0 70px;
 }
 
 .about-right {
