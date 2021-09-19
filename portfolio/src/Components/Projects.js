@@ -5,7 +5,7 @@ import '../Styles/Projects.css';
 
 function Projects() {
   return (
-    <div className="projects-section">
+    <div id="products" className="projects-section">
       <h1 className="project-text">Projects</h1>
       <div className="project-div">
         { allProjects.map((item) => <ProjectCard project={ item } />) }
