@@ -1,0 +1,8 @@
+.field-area {
+  margin: 10%;
+}
+
+.form-area {
+  display: flex;
+  flex-direction: column;
+}
