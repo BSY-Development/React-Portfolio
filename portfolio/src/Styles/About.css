@@ -1,0 +1,127 @@
+.about-me {
+  background-color: #0f0e17;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 8% 10%;
+}
+
+.fab {
+  font-size: 32px;
+}
+
+.fab:hover {
+  cursor: pointer;
+}
+
+.technologies {
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-about {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.tech-div {
+  padding: 0 70px;
+}
+
+.about-right {
+  width: 40%;
+}
+
+.margin-icon {
+  margin-bottom: 10px;
+}
+
+.fa-git:hover{
+  color: #E94E31;
+}
+
+.fa-python:hover {
+  color: #2978A9;
+}
+
+.fa-js-square:hover {
+  color: #EFD81D;
+}
+
+.fa-react:hover {
+  color: #5ED3F3;
+}
+
+.social-div {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.social-media {
+  color: white;
+}
+
+.fa-instagram:hover {
+  background: -webkit-linear-gradient(#8C39B0, #F7D177);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin:hover {
+  color: #0074B4;
+}
+
+.fa-github:hover {
+  color: grey;
+}
+
+@media screen and (max-width: 1024px) {
+  .social-div {
+    justify-content: space-around;
+    width: 100%;
+  }
+  .social-media {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title-about {
+    font-size: 2.5rem;
+  }
+  .about-me {
+    flex-direction: column;
+  }
+  .tech-div {
+    padding: 0;
+    width: 100%;
+  }
+  hr {
+    margin: 50px auto 0;
+    width: 100%;
+  }
+  .about-right {
+    width: 100%;
+  }
+  .social-div {
+    justify-content: space-around;
+    width: 100%;
+  }
+  .social-media {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .title-about {
+    font-size: 2rem;
+  }
+  hr {
+    margin: 30px auto 0;
+    width: 100%;
+  }
+}

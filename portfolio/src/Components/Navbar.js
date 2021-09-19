@@ -7,7 +7,7 @@ function Navbar() {
       <a href="/">Bruno Yamamoto</a>
       <div>
         <a className="nav-option" href="#products">Projects</a>
-        <a className="nav-option" href="/">About</a>
+        <a className="nav-option" href="#about">About</a>
         <a className="nav-option" href="/">Contact</a>
       </div>
     </div>
