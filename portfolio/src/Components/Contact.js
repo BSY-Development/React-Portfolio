@@ -34,7 +34,7 @@ function Contact() {
   }
 
   return (
-    <div className="div-contact">
+    <div id="contact" className="div-contact">
       <h1 className="project-text">Contact</h1>
       <fieldset className="field-area">
         <form className="form-area" onSubmit={ handleSubmit }>
