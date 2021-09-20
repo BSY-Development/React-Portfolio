@@ -8,7 +8,7 @@ function Projects() {
     <div id="products" className="projects-section">
       <h1 className="project-text">Projects</h1>
       <div className="project-div">
-        { allProjects.map((item) => <ProjectCard project={ item } />) }
+        { allProjects.map((item, i) => <ProjectCard key={ i } project={ item } />) }
       </div>
     </div>
   )
