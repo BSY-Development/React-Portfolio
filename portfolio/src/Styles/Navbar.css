@@ -11,10 +11,77 @@ html {
 }
 
 .main-nav a {
+  align-self: center;
   color: white;
   text-decoration: none;
 }
 
-.nav-option {
-  margin-left: 20px;
+/* New */
+
+nav {
+  background-color: #0F0E17;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-config {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  opacity: 1.0;
+  border-radius: 3px;
+}
+
+.checkbtn {
+  color: white;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .checkbtn {
+    display: block;
+  }
+
+  .ul-config {
+    flex-direction: column;
+    height: 25vh;
+    width: 89%;
+  }
+  ul {
+    font-size: 32px;
+    position: fixed;
+    background: rgb(32, 32, 32);
+    top: 5px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+
+  nav ul li {
+    display: block;
+  }
+
+  #check:checked~ul {
+    left: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .ul-config {
+    width: 80%;
+  }
 }
