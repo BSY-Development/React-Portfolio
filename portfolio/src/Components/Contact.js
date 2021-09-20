@@ -27,15 +27,22 @@ function Contact() {
     });
   }
 
+  if (messageStatus.length) {
+    setTimeout(() => {
+      setMessageStatus('');
+    }, 10000);
+  }
+
   return (
     <div className="div-contact">
+      <h1 className="project-text">Contact</h1>
       <fieldset className="field-area">
         <form className="form-area" onSubmit={ handleSubmit }>
-          <input type="text" placeholder="Your Name" onChange={ (e) => handleChange(e, setName) } />
-          <input type="email" placeholder="E-mail" onChange={ (e) => handleChange(e, setEmail) } />
-          <textarea onChange={ (e) => handleChange(e, setMessage) } />
-          <p>{ messageStatus }</p>
-          <button type="submit">Send Message</button>
+          <input className="input-field" type="text" required placeholder="Your Name" onChange={ (e) => handleChange(e, setName) } />
+          <input className="input-field" type="email" required placeholder="E-mail" onChange={ (e) => handleChange(e, setEmail) } />
+          <textarea required onChange={ (e) => handleChange(e, setMessage) } />
+          <p className="msg-response">{ messageStatus }</p>
+          <button className="btn-submit" type="submit">Send Message</button>
         </form>
       </fieldset>
     </div>
