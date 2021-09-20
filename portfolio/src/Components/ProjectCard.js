@@ -10,9 +10,9 @@ function ProjectCard({ project }) {
         <p className="description">{ description }</p>
       </div>
       <img className="project-image" src={ image } alt={ title } />
-      <div>
-        <a className="a-card" href={ website }>View Live</a>
+      <div className="view-link">
         <a className="a-card" href={ github }>Repository</a>
+        <a className="a-card" href={ website }>View Live</a>
       </div>
     </div>
   )

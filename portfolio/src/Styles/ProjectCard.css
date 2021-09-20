@@ -40,7 +40,6 @@
   margin-bottom: 10px;
   margin-top: 10px;
   text-decoration: none;
-  width: 95%;
 }
 
 .a-card:hover {
@@ -63,4 +62,11 @@
   .project-image {
     width: 100%;
   }
+}
+
+.view-link {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12px;
+  margin-right: 12px;
 }
