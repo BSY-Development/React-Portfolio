@@ -1,4 +1,5 @@
 import example from '../images/example.png';
+import spotify from '../images/spotify.png';
 
 const allProjects = [
   {
@@ -16,11 +17,11 @@ const allProjects = [
     website: '/',
   },
   {
-    title: 'Project 3',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed.',
-    image: example,
-    github: '/',
-    website: '/',
+    title: 'Spotify Playlist Creator',
+    description: 'This application creates a top 100 of most played songs from a chosen year using Python.',
+    image: spotify,
+    github: 'https://github.com/BSY-Development/Spotify-Playlist-Creator',
+    website: 'https://open.spotify.com/playlist/47xn36qW6q9WkUg1dUeyen',
   },
   {
     title: 'Project 4',
