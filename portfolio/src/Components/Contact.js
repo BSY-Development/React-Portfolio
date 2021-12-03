@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import '../Styles/Contact.css';
+require('dotenv').config();
 
 function Contact() {
   const [name, setName] = useState('');
@@ -19,10 +20,11 @@ function Contact() {
       email,
       message,
     };
-    emailjs.send("service_fxkt7lb","template_vehcyvk", emailToSend, 'user_O5Hm6RiNqHYto2MLFR4CE')
-      .then((result) => {
+    const { REACT_APP_SERVICE, REACT_APP_TEMPLATE, REACT_APP_USER } = process.env;
+    emailjs.send(REACT_APP_SERVICE, REACT_APP_TEMPLATE, emailToSend, REACT_APP_USER)
+      .then((_result) => {
         setMessageStatus('Message sent!')
-    }, (error) => {
+    }, (_error) => {
       setMessageStatus('Oops! Something went wrong...')
     });
   }
